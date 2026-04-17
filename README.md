@@ -46,36 +46,15 @@ To predict the **math score of a student** based on:
 
 ---
 
-## 📁 Project Structure
+## 📸 Screenshots
 
-ML Project/
-│
-├── src/
-│ ├── components/
-│ │ ├── data_ingestion.py
-│ │ ├── data_transformation.py
-│ │ ├── model_trainer.py
-│ │
-│ ├── pipeline/
-│ │ ├── predict_pipeline.py
-│ │ └── train_pipeline.py
-│ │
-│ ├── exception.py
-│ ├── logger.py
-│ └── utils.py
-│
-├── notebooks/
-│ ├── EDA STUDENT PERFORMANCE.ipynb
-│ └── MODEL TRAINING.ipynb
-│
-├── templates/
-│ ├── index.html
-│ └── home.html
-│
-├── artifacts/
-│ ├── model.pkl
-│ └── preprocessor.pkl
-│
-├── app.py
-├── requirements.txt
-└── README.md
+### Home Page
+<img width="1918" height="875" alt="Index" src="https://github.com/user-attachments/assets/35a948c2-a48f-494d-b364-49f7c1104d81" />
+
+### Prediction Page
+(Add Screenshot Here)
+
+
+
+<img width="1918" height="871" alt="predict" src="https://github.com/user-attachments/assets/66d66861-d42e-40f9-85ac-37f146629892" />
+
