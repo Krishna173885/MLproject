@@ -1,1 +1,53 @@
-<h1>Welcome to the home page</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+            text-align: center;
+        }
+
+        .box {
+            background: rgba(255,255,255,0.1);
+            padding: 40px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background: white;
+            color: #ff7e5f;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Welcome to Student Predictor</h1>
+        <p>Predict student maths performance easily</p>
+        <a href="/predictdata">Go to Prediction Page</a>
+    </div>
+</body>
+</html>
